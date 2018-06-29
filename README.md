@@ -8,7 +8,7 @@
 
 This repository contains the On the Map app project for the iOS Networking with Swift course in Udacity's iOS Nanodegree.
 
-
+The On the Map app displays a map that shows information posted by other students. The map will contain pins that show the locations where other students have reported studying. By tapping on the pin, users can see a URL for something the student find interesting. The user will be able to add their own data by posting a string that can be geo-coded to a location and a URL.
 
 My implementation contains the following unique user-friendly tweaks:
 
