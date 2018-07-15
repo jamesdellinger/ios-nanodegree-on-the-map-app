@@ -1,17 +1,14 @@
-<img src="https://s3-us-west-1.amazonaws.com/udacity-content/degrees/catalog-images/nd003.png" alt="iOS Developer Nanodegree logo" height="70">
+# iOS Developer Nanodegree: On The Map App
+*Creating an app with a responsive UI that reads and writes from RESTful networked APIs.*
 
-# iOS Developer Nanodegree: On the Map App
+<img src="https://github.com/jamesdellinger/ios-nanodegree-on-the-map-app/blob/master/iosndlogo.jpg" alt="iOS Developer Nanodegree logo" height="100" >
 
-*Create an app with a responsive UI that reads and writes from RESTful networked APIs.*
+## Overview
+This repository contains the On The Map app project for the **iOS Networking with Swift** course in Udacity's [iOS Nanodegree](https://www.udacity.com/course/ios-developer-nanodegree--nd003).
 
-![Platform iOS](https://img.shields.io/badge/nanodegree-iOS-blue.svg)
+The On The Map app displays a map that shows information posted by other students. The map will contain pins that show the locations where other students have reported studying. By tapping on the pin, users can see a URL for something the student find interesting. The user will be able to add their own data by posting a string that can be geo-coded to a location and a URL.
 
-This repository contains the On the Map app project for the iOS Networking with Swift course in Udacity's iOS Nanodegree.
-
-The On the Map app displays a map that shows information posted by other students. The map will contain pins that show the locations where other students have reported studying. By tapping on the pin, users can see a URL for something the student find interesting. The user will be able to add their own data by posting a string that can be geo-coded to a location and a URL.
-
-My implementation contains the following unique user-friendly tweaks:
-
+## My Implementation's User-friendly Tweaks
 1. A more visually pleasing custom activity indicator spinner and gray-tinted overlay that appears underneath it. They are defined
     inside a custom class, and managed with a custom controller class. This makes it easy to call and dismiss the activity
     spinner during any network call, each with one line of code, from any view controller in the app:
@@ -32,8 +29,7 @@ My implementation contains the following unique user-friendly tweaks:
 
     <img src="https://github.com/jamesdellinger/ios-nanodegree-on-the-map-app/blob/master/Screenshots/Simulator%20Screen%20Shot%20-%20iPhone%208%20Plus%20-%202017-11-13%20at%2020.57.47.png" height="400">
 
-### Project Grading and Evaluation
+## Project Grading and Evaluation
+* [Project Review](https://github.com/jamesdellinger/ios-nanodegree-on-the-map-app/blob/master/ios-nanodegree-on-the-map-app-review.pdf)
 
-[Project Review](https://github.com/jamesdellinger/ios-nanodegree-on-the-map-app/blob/master/ios-nanodegree-on-the-map-app-review.pdf)
-
-[Project Grading Rubric](https://github.com/jamesdellinger/ios-nanodegree-on-the-map-app/blob/master/on-the-map-app-specs-and-rubric.pdf)
+* [Project Grading Rubric](https://github.com/jamesdellinger/ios-nanodegree-on-the-map-app/blob/master/on-the-map-app-specs-and-rubric.pdf)
